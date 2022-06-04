@@ -18,7 +18,7 @@ width: 15%;
     font-size: 16px;
     color: white;
     text-align: center;
-    padding: 14px 39px;
+    padding: 14px 50px;
     text-decoration: none;
   }
   .dropdown {
@@ -30,7 +30,7 @@ width: 15%;
     border: none;
     outline: none;
     color: white;
-    padding: 14px 16px;
+    padding: 14px 50px;
     background-color: inherit;
     font-family: inherit;
     margin: 0;
@@ -73,7 +73,6 @@ width: 15%;
   position: relative;
   text-align: center;
   color: white;
-  opacity: 0.3;
 }
 
 .top-left {
@@ -88,7 +87,12 @@ width: 15%;
   bottom: 8px;
   right: 16px;
 }
+.container2 {
 
+position: absolute;
+top:50px;
+left:50px;
+}
 .footer {
     overflow: hidden;
     background-color: #5885af;
@@ -96,3 +100,10 @@ width: 15%;
     font-weight: bold;
   }
   
+  .info {
+position: relative;
+right: -90px;
+
+
+
+  }
